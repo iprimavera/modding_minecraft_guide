@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: "Documentación de Minecraft Modding"
+
+nav:
+  - Inicio: index.md
+  - "Minecraft Modding": modding_minecraft.md
+
+site_url: "https://iprimavera.github.io/modding_minecraft_guide"

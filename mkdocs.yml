@@ -6,5 +6,9 @@ nav:
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
 
 site_url: "https://iprimavera.github.io/modding_minecraft_guide"

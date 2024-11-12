@@ -4,4 +4,7 @@ nav:
   - Inicio: index.md
   - "Minecraft Modding": modding_minecraft.md
 
+theme:
+  name: material
+
 site_url: "https://iprimavera.github.io/modding_minecraft_guide"

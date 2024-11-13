@@ -2,9 +2,8 @@ site_name: "Minecraft Modding"
 
 nav:
   - Inicio: index.md
-  - Setup:
-    - Prerrequisitos: prerrequisitos.md
-    - Configuración: configuracion.md
+  - Prerrequisitos: prerrequisitos.md
+  - Configuración inicial: configuracion.md
 
 theme:
   name: material

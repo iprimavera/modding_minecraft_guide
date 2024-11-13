@@ -1,8 +1,10 @@
-site_name: "Documentación de Minecraft Modding"
+site_name: "Minecraft Modding"
 
 nav:
   - Inicio: index.md
-  - Minecraft modding: modding_minecraft.md
+  - Setup:
+    - Prerrequisitos: prerrequisitos.md
+    - Configuración: configuracion.md
 
 theme:
   name: material
@@ -13,7 +15,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.indexes
     - navigation.top
     - search.suggest
@@ -39,6 +41,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
+      type: timeago
 
 markdown_extensions:
   - admonition
@@ -68,7 +71,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.blocks.caption
-
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 copyright: Copyright &copy; 2024 Iván Castro
 

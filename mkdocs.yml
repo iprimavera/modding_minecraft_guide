@@ -2,7 +2,7 @@ site_name: "Documentación de Minecraft Modding"
 
 nav:
   - Inicio: index.md
-  - "Minecraft Modding": modding_minecraft.md
+  - Minecraft modding: modding_minecraft.md
 
 theme:
   name: material
@@ -10,5 +10,48 @@ theme:
     scheme: slate
     primary: black
     accent: indigo
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+
+repo_url: https://github.com/iprimavera/modding_minecraft_guide
+repo_name: iprimavera/modding_mc
+edit_uri: edit/main/docs/
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/iprimavera
+      name: iprimavera on github
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+copyright: Copyright &copy; 2024 Iván Castro
 
 site_url: "https://iprimavera.github.io/modding_minecraft_guide"

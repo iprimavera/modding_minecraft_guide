@@ -23,6 +23,7 @@ theme:
     - content.action.view
     - content.code.copy
     - content.code.annotate
+    - content.footnote.tooltips
 
 repo_url: https://github.com/iprimavera/modding_minecraft_guide
 repo_name: iprimavera/modding_mc
@@ -42,7 +43,11 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
   - pymdownx.highlight:
@@ -51,6 +56,19 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.caption
+
 
 copyright: Copyright &copy; 2024 Iván Castro
 

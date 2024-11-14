@@ -14,7 +14,7 @@ Yo uso Temurin, instalarlo es tan fácil como:
 
 1. Descargar el .msi de [este enlace](https://adoptium.net/temurin/releases/?version=17&package=jdk&arch=x64&os=windows)
 y ejecutarlo.
-2. Cuando te salga una opción de "_Select the way you want features to be installed._" debes pulsar
+2. Cuando te salga una opción de "_Select the way you want features to be installed._" debes pulsar.
 la opción de "_Set JAVA HOME variable_" y asegurarte que está en la opción de "_Will be installed on local hard drive_".
 3. Termina la instalación y ya tendríamos el JDK listo.
 
@@ -27,7 +27,7 @@ la opción de "_Set JAVA HOME variable_" y asegurarte que está en la opción de
 ## Instalación de IntelliJ
 
 1. Entra en [IntelliJ](https://www.jetbrains.com/idea/download/other.html) y descarga el .exe de windows en la versión más nueva de _Community Edition_.
-2. abre el programa, en él haremos todos los mods asi que puedes empezar a familiarizarte con él.
+2. Abre el programa, en él haremos todos los mods asi que puedes empezar a familiarizarte con él.
 
 ---
 

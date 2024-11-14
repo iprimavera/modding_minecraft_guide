@@ -22,11 +22,11 @@ la opción de "_Set JAVA HOME variable_" y asegurarte que está en la opción de
 
 1. Dirígete al sitio oficial de [Forge](https://files.minecraftforge.net/).
 2. Elige la versión de Minecraft 1.20.1.
-3. Selecciona y descarga el mdk de la opción _Download Latest_.
+3. Selecciona y descarga el mdk de la opción _Download Latest_
 
 ## Instalación de IntelliJ
 
-1. Entra en [IntelliJ](https://www.jetbrains.com/idea/download/other.html) y descarga el .exe de windows en la versión más nueva de _Community Edition_.
+1. Entra en [IntelliJ](https://www.jetbrains.com/idea/download/other.html) y descarga el `.exe` de windows en la versión más nueva de _Community Edition_.
 2. Abre el programa, en él haremos todos los mods asi que puedes empezar a familiarizarte con él.
 
 ---
